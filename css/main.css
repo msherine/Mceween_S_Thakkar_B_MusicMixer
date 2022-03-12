@@ -21,19 +21,118 @@ Author: Sherine McEween , Bhavya Thakkar
 >> Fonts :
 */
 
+#main_display, .mixer_container{
+  font-family: 'Epilogue', sans-serif;;
+}
 
 /*
 >> General Styles :
 */
 
+h2{
+  color: #ec8446;
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+
+h1{
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px 20px 20px 0px;
+}
+
+p{
+  color: white;
+  text-align: left;
+  padding: 20px 20px 20px 0px;
+}
+
+body{
+  background-color: #1b1b1b;
+  padding: 2em;
+}
 
 
 /*
 >> Classes :
 */
 
+/* index.html styles */
+.hidden {
+  display: none;
+}
 
+.button {
+  background-color: #ec8446;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px 20px 20px 0px;
+}
+
+.music_intro{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  height: 200px;
+  padding: 20px;
+  grid-gap: 60px;
+}
+
+/* mixer.html styles */
+
+.mixer_instruments{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 10px 10px;
+}
+
+.mixer_instruments img{
+  width: 20%;
+  height: auto;
+  margin: 20px;
+}
+
+.inst_drop{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
+  padding: 10px; 
+}
 
 /*
 >> IDs :
 */
+
+/* index.html styles */
+#main_display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  grid-gap: 20px;
+}
+
+#hero_img{
+  width: 577px;
+  height: 414px;
+  padding: 10px;
+
+}
+
+/* mixer.html styles */
