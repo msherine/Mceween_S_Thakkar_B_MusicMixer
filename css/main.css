@@ -112,9 +112,14 @@ body{
   align-items: center;
   margin: 5px;
   justify-content: center;
-  padding: 10px; 
+  padding: 10px;
 }
 
+.mixer_instruments img{
+  height:auto;
+  width:20%;
+  margin: 20px;
+}
 /*
 >> IDs :
 */
@@ -136,3 +141,7 @@ body{
 }
 
 /* mixer.html styles */
+
+#mixer_container div {
+  border-radius: 10px;
+}
