@@ -1,7 +1,7 @@
 # Music Mixer - Ringtone Composer
 
 
-<img src="assets/Ringtone Composer 3.png" width="600" > <br>
+<img src="images/Ringtone Composer 3.png" width="600" > <br>
 
 
 An interactive and fun Ringtone composer where you can drag and drop the instruments of your choice and make your own tune. Developed using JavaScript, HTML and CSS.
