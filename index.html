@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music Mixer</title>
-
+    <!---link fonts here --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
     <!--- the reset css needs to be linked before main.css file --->
-
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
@@ -13,22 +17,26 @@
   <body>
     <!-- Content goes here -->
     <main>
-      <h1 class="hidden">Welcome! It's our Music Mixer.</h1>
-      <h2 class="main-heading"></h2>
-      <nav>
-        <h2 class="hidden"></h2>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+      <section id="main_display">
+        <div >
+          <h1 class="hidden">Welcome! It's our Music Mixer.</h1>
+          <h2 class="main-heading">Ringtone Composer</h2>
+        </div>
+        <div class="music_intro">
+          <!--intro page text goes here-->
+          <div id="music_text">
+            <h1>Bored of those oldie ringtones?</h1>
+            <p>Make your coolest ringtone yourself!</p>
+            <a href="mixer.html" class="button">Start Now</a>
+          </div>
+          <!--hero image goes here-->
+          <div id="hero_img">
+            <img src="images/hero_img.jpg" alt="LISTEN MUSIC">
+          </div>
+        </div>
+      </section>
 
     </main>
-
-    <section></section>
-
     <script src="js/main.js"></script>
   </body>
 </html>
