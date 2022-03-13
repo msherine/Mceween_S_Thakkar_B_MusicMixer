@@ -115,10 +115,28 @@ body{
   padding: 10px;
 }
 
-.mixer_instruments img{
-  height:auto;
-  width:20%;
+
+#mixer_bg {
+  height: auto;
   margin: 20px;
+}
+
+.mixer_center{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content:center;
+  width:60%;
+  height: 100vh;
+
+}
+
+.mixer_drop{
+  display: flex;
+}
+
+.inst_drop{
+  flex-wrap: wrap;
 }
 /*
 >> IDs :
