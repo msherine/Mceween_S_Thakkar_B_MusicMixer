@@ -4,10 +4,6 @@ const instruments = document.querySelectorAll(".mixer_instruments img"),
   dropArea = document.querySelectorAll(".inst_drop"),
   instrumentArea = document.querySelectorAll(".mixer_instruments");
 
-let config = {
-  audioType: 'wav'
-}
-
 function grabbed(event){
   console.log("Your chosen instrument");
   event.dataTransfer.setData("idSaved",this.id);
@@ -28,7 +24,10 @@ function selected(event){
 
 function playInstrument(event){
     let instrumentChoice = event.dataTransfer.getData("instrumentChoice");
-    let audio = `sounds/${data}.${config.audioType}`;
+    if (true) {
+
+    }
+    let audio = document.querySelector(`audio [data-sound="${instrumentChoice}"]`);
     audio.classList.add("playing");
     console.log("you have chosen", instrumentChoice);
     audio.currentTime = 0;
