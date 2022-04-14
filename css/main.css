@@ -44,11 +44,7 @@ h1{
   padding: 20px 20px 20px 0px;
 }
 
-p{
-  color: white;
-  text-align: left;
-  padding: 20px 20px 20px 0px;
-}
+
 
 body{
   background-color: #1b1b1b;
@@ -147,6 +143,14 @@ body{
   height: 80vh;
 }
 
+.mixer_center p {
+  color: #808080;
+  width: 32vh;
+  text-align: center;
+  padding-right: 32px;
+  padding-bottom: 10px;
+}
+
 .mixer_drop{
   display: flex;
   flex-direction: row;
@@ -176,6 +180,12 @@ body{
   height: 414px;
   padding: 10px;
 
+}
+
+#music_text p{
+  color: white;
+  text-align: left;
+  padding: 20px 20px 20px 0px;
 }
 
 /* mixer.html styles */
