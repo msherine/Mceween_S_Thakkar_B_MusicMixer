@@ -17,7 +17,8 @@ function dragged(event){
 
 function selected(event){
   event.preventDefault();
-  
+  let targetID = event.dataTransfer.getData("idSaved");
+  console.log(" You selected this!",)
 }
 
 })();
