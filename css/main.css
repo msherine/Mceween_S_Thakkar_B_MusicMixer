@@ -101,6 +101,7 @@ body{
   flex-wrap: wrap;
   flex-direction: row;
   height: 80vh;
+  width: 140vh;
   align-items: center;
   justify-content: center;
   margin: 0px 10px 10px 10px;
@@ -155,7 +156,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
+  width: 44vh;
   justify-content: center;
   align-items: center;
   padding-right: 30px;
