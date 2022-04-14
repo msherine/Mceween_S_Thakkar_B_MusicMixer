@@ -15,37 +15,54 @@
 </head>
 <body>
   <main>
-    <div class="mixer_container">
+    <nav>
       <h2 class="main-heading">Ringtone Composer</h2>
+    </nav>
+    <div class="mixer_container">
       <div class="mixer_instruments">
-        <img id="intr_1" src="images/guitar.png" alt="guitar" draggable="true">
-        <img id="intr_2" src="images/bongo drums.png" alt="bongo drums" draggable="true">
+        <img id="intr_1" src="images/guitar.svg" alt="guitar" draggable="true">
+        <img id="intr_2" src="images/bongo_drums.svg" alt="bongo drums" draggable="true">
         <img id="intr_3" src="images/violin.png" alt="violin" draggable="true">
-        <img id="intr_4" src="images/western sitar.png" alt="western sitar" draggable="true">
-        <img id="intr_5" src="images/trumpet.png" alt="trumpet" draggable="true">
-        <img id="intr_6" src="images/drumpad.png" alt="drumpad" draggable="true">
+        <img id="intr_4" src="images/western_sitar.svg" alt="western sitar" draggable="true">
+        <img id="intr_5" src="images/trumpet.svg" alt="trumpet" draggable="true">
+        <img id="intr_6" src="images/drumpad.svg" alt="drumpad" draggable="true">
       </div>
 
       <div class="mixer_center">
-        <img id="mixer_bg" src="images/hand_mobile_bg.png" alt="mixer background">
         <div class="mixer_drop">
-          <div class="inst_drop d1"></div>
-          <div class="inst_drop d2"></div>
-          <div class="inst_drop d3"></div>
-          <div class="inst_drop d4"></div>
+          <div class="inst_drop d1">
+            <audio id="sound1" draggable="false">
+              <source src(unknown) type="audio/wav">
+            </audio>
+          </div>
+          <div class="inst_drop d2">
+            <audio id="sound2" draggable="false">
+              <source src(unknown) type="audio/wav">
+            </audio>
+          </div>
+          <div class="inst_drop d3">
+            <audio id="sound3" draggable="false">
+              <source src(unknown) type="audio/wav">
+            </audio>
+          </div>
+          <div class="inst_drop d4">
+            <audio id="sound4" draggable="false">
+              <source src(unknown) type="audio/wav">
+            </audio>
+          </div>
         </div>
       </div>
 
       <div class="mixer_instruments">
-        <img id="intr_7" src="images/conga drum.png" alt="conga drum" draggable="true">
-        <img id="intr_8" src="images/xylophone.png" alt="xylophone" draggable="true">
-        <img id="intr_9" src="images/shakers.png" alt="shakers" draggable="true">
-        <img id="intr_10" src="images/accordion.png" alt="accordion" draggable="true">
-        <img id="intr_11" src="images/bagpipe.png" alt="bagpipe" draggable="true">
-        <img id="intr_12" src="images/saxophone.png" alt="saxophone" draggable="true">
+        <img id="intr_7" src="images/conga_drum.svg" alt="conga drum" draggable="true">
+        <img id="intr_8" src="images/xylophone.svg" alt="xylophone" draggable="true">
+        <img id="intr_9" src="images/shakers.svg" alt="shakers" draggable="true">
+        <img id="intr_10" src="images/accordion.svg" alt="accordion" draggable="true">
+        <img id="intr_11" src="images/bagpipe.svg" alt="bagpipe" draggable="true">
+        <img id="intr_12" src="images/saxophone.svg" alt="saxophone" draggable="true">
       </div>
-
     </div>
   </main>
+<script src="js/main.js"></script>
 </body>
 </html>
